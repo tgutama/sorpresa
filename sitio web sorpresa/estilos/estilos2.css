@@ -1,0 +1,12 @@
+img {
+         border: ;
+         float: below;
+         margin: 5px;
+         -webkit-transition: margin 0.5s ease-out;
+         -moz-transition: margin 0.5s ease-out;
+         -ms-transition: margin 0.5s ease-out;
+         transition: margin 0.5s ease-out;
+    }
+     .ex1 img:hover {
+   margin-top: 40px;
+    }
