@@ -12,6 +12,8 @@ a.button:hover {background:#131313}
 
 a.link {text-decoration:none; cursor:pointer; color:#f0047f}
 a.link:hover {text-decoration:underline}
+a.link1 {color:#f0047f}
+a.link2 {background:url(../images/marker.gif) 0 10px no-repeat}
 
 .color-1 {color:#fff}
 a.color-1:hover {text-decoration:underline}
@@ -110,6 +112,7 @@ ul.menu li.home-page span {background:url(../images/home-page-img.png) 0 0 no-re
 
 .aside {background:#f9f9fb; width:100%; padding:33px 0 60px 0}
 
+
 .block-2>div {float:left; width:420px; margin-right:40px}
 
 .block-3>div {float:left; width:278px; margin-right:27px; padding:37px 0 40px 0}
@@ -127,9 +130,16 @@ ul.menu li.home-page span {background:url(../images/home-page-img.png) 0 0 no-re
 .block-8>div {float:left; width:278px; margin-right:27px}
 
 .box-2 a {display:inline-block; float:left; margin-right:20px}
+.normal {width: px; border:0px solid #000; background:#f9f9fb; border-collapse: collapse;
+}
+.normal th, .normal td { 
+
+ border: 0px solid:#000;padding: 15px;
+}
+
 
 /****************************footer************************/
-footer {width:100%; position:relative; overflow:hidden; text-align:center; padding:32px 0 45px 0}
+footer {width:100%; position:relative; overflow:hidden; text-align:center; padding:20px 0 10px 0}
 footer p, footer a {color:#fff}
 footer a:hover {text-decoration:underline}
 
