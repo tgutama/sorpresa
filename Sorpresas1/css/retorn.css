@@ -1,3 +1,4 @@
 /* retorno enlace =====*/
 div a.libre{text-align:center;font:verdana, arial,calibri;font-size:17px;color:yellow;}
-.centrar{text-align:center;font:arial;font-size:30px;color:black;}
+.centrar{text-align:center;font:arial;font-size:30px;color:black;vertical-align: middle;}
+th.displayed {display: block;margin-left: auto;margin-right: auto; margin-right:36px}
