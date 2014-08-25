@@ -1,0 +1,359 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*EFECTO DE GROW PARA EL MENU*/
+.grow {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.grow:hover, .grow:focus, .grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*EFECTO PARA IMAGENES*/
+.css3gallery img{
+-webkit-transform:scale(0.8); /*Webkit: Scale down image to 0.8x original size*/
+-moz-transform:scale(0.8); /*Mozilla scale version*/
+-o-transform:scale(0.8); /*Opera scale version*/
+-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+-moz-transition-duration: 0.5s; /*Mozilla duration version*/
+-o-transition-duration: 0.5s; /*Opera duration version*/
+opacity: 0.7; /*initial opacity of images*/
+margin: 0 10px 5px 0; /*margin between images*/
+}
+ 
+.css3gallery img:hover{
+-webkit-transform:scale(1.1); /*Webkit: Scale up image to 1.2x original size*/
+-moz-transform:scale(1.1); /*Mozilla scale version*/
+-o-transform:scale(1.1); /*Opera scale version*/
+box-shadow:0px 0px 30px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
+-webkit-box-shadow:0px 0px 30px gray; /*Safari shadow version*/
+-moz-box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
+opacity: 1;
+}
+
+
+
+/* APLICADO PARA TODO*/
+
+#top{
+height:5px;
+width:auto;
+background-color:#FBB03B;
+}
+
+
+#colorbot{
+height:5px;
+width:auto;
+background-image:url(../imgs/colores-bot.png);
+}
+
+ul{
+list-style-type:none;
+padding:0;
+text-align:center;
+}
+
+a.links{
+  margin: .4em;
+  cursor: pointer;
+  text-decoration: none;
+  color: #666666;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family:Arial, Helvetica, sans-serif;
+  padding-left:50px;
+  padding-right:50px;
+}
+
+
+#pie{
+height:auto;
+}
+
+#piedepag{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#666666;
+padding:0;
+padding-top:7px;
+padding-bottom:20px;
+text-align:center;
+}
+
+.imagen1{
+max-height:200px;
+}
+
+
+
+
+/*MEDIA ESCRITORIO*/
+
+@media (min-width: 1360px){
+
+#total{
+width:1360px;
+height:auto;
+margin:0 auto 0 auto;
+}
+
+#head{
+height:155px;
+}
+
+#eclogo{
+	padding-top:25px;
+	padding-left:100px;
+}
+
+#menu{
+height:42px;
+}
+
+li{
+display:inline;
+}
+
+#bodyhome{
+height:520px;
+width:auto;
+background-image:url(../imgs/fondo_home.jpg);
+}
+
+#bodysierra{
+height:520px;
+width:auto;
+background-image:url(../imgs/fondo_sierra.jpg);
+}
+
+#bodycosta{
+height:520px;
+width:auto;
+background-image:url(../imgs/fondo_costa.jpg);
+}
+
+#bodyoriente{
+height:520px;
+width:auto;
+background-image:url(../imgs/fondo_oriente.jpg);
+}
+
+#bodyinsular{
+height:520px;
+width:auto;
+background-image:url(../imgs/fondo_insular.jpg);
+}
+
+#textohome{
+float:right;
+width:50%;
+height:auto;
+background-image:url(../imgs/fondo_text.png);
+background-repeat:repeat;
+}
+
+#izq{
+float:left;
+width:50%;
+height:auto;
+}
+
+
+p.clase1{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#FFFFFF;
+margin:20px;
+}
+
+
+}
+
+
+
+
+
+/*MEDIA TABLET*/
+
+@media (max-width: 1359px){
+#total{
+width:100%;
+height:768px;
+margin:0 auto 0 auto;
+}
+
+#head{
+height:155px;
+}
+
+img{
+width:auto;
+}
+
+#eclogo{
+padding-top:25px;
+padding-left:30px;
+}
+
+#menu{
+height:auto;
+}
+
+
+li{
+
+}
+
+#bodyhome{
+height:520px;
+width:auto;
+background-image:url(../imgs/fondo_home.jpg);
+}
+
+#bodysierra{
+height:520px;
+width:auto;
+background-image:url(../imgs/fondo_sierra.jpg);
+}
+
+#bodyoriente{
+height:520px;
+width:auto;
+background-image:url(../imgs/fondo_oriente.jpg);
+}
+
+#bodycosta{
+height:520px;
+width:auto;
+background-image:url(../imgs/fondo_costa.jpg);
+}
+
+#bodyinsular{
+height:520px;
+width:auto;
+background-image:url(../imgs/fondo_insular.jpg);
+}
+
+#textohome{
+width:100%;
+height:auto;
+background-image:url(../imgs/fondo_text.png);
+background-repeat:repeat;
+}
+
+#izq{
+float:left;
+width:100%;
+height:auto;
+opacity:1;
+}
+
+p.clase1{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#FFFFFF;
+margin:20px;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+}
+
+
+
+/*MEDIA SMARTPHONE*/
+
+@media (max-width: 480px){
+#total{
+width:100%;
+height:768px;
+margin:0 auto 0 auto;
+}
+
+#head{
+height:auto;
+}
+
+#eclogo{
+padding-top:25px;
+padding-bottom:20px;
+width:90%;
+}
+
+#menu{
+height:auto;
+}
+
+
+li{
+
+}
+
+#bodyhome{
+height:auto;
+width:auto;
+background-image:url(../imgs/fondo_home.jpg);
+}
+
+#bodysierra{
+height:auto;
+width:auto;
+background-image:url(../imgs/fondo_sierra.jpg);
+}
+
+#bodycosta{
+height:auto;
+width:auto;
+background-image:url(../imgs/fondo_costa.jpg);
+}
+
+#bodyoriente{
+height:auto;
+width:auto;
+background-image:url(../imgs/fondo_oriente.jpg);
+}
+
+#bodyinsular{
+height:auto;
+width:auto;
+background-image:url(../imgs/fondo_insular.jpg);
+}
+
+#textohome{
+width:100%;
+height:auto;
+background-image:url(../imgs/fondo_text.png);
+background-repeat:repeat;
+}
+
+#izq{
+float:left;
+width:100%;
+height:auto;
+opacity:1;
+}
+
+p.clase1{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#FFFFFF;
+margin:20px;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+.imagen1{
+width:90%;
+}
+
+}

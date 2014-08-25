@@ -1,4 +1,6 @@
 /* retorno enlace =====*/
 div a.libre{text-align:center;font:verdana, arial,calibri;font-size:17px;color:yellow;}
 .centrar{text-align:center;font:arial;font-size:30px;color:black;vertical-align: middle;}
-th.displayed {display: block;margin-left: auto;margin-right: auto; margin-right:36px}
+scope.dis {display: block;margin-left: 25%;margin-right: 25%; margin-right:36px}
+.tablal {width: 250px;border: 1px solid #000;border-collapse: collapse;}
+.tablal th, .normal td {border: 1px solid #000;}
